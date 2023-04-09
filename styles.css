@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.select-title {
+    line-height: 50px;
+    font-weight: 400;
+    color: hsla(280, 60%, 41%, 0.881);
+}
+
+input[type=file] {
+    background-color: white;
+    border-radius: 3px;
+}
+
+input[name=file] {
+    border: 1px solid hsl(0, 3%, 79%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.video-preview {
+    height: 50%;
+    margin-top: 2em;
+    visibility: hidden;
+}
+
+.controls {
+    margin-top: 0.5em;
+    margin-left: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 0.5em 1.5em;
+    border: none;
+    background:hsla(293, 39%, 56%, 0.699);
+    color: hsl(0, 0%, 0%);
+}
+
+.buttons:hover {
+    background: hsl(0, 0%, 4%);
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.button:focus {
+    background: hsl(245, 44%, 32%);
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.bi {
+    font-size: 2em;
+}
+
+.loading-message {
+    font-size: 2em;
+    font-weight: 700;
+    color: hsl(270, 71%, 35%);
+    border: 2px solid hsl(270, 71%, 35%);
+    padding: 2em;
+}
