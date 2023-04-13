@@ -1,4 +1,4 @@
-# APIs-SD
+# APIs-HTML
 Práctica APIs - Samsung Desarrolladoras
 
 Se propone cargar un fichero de vídeo desde una carpeta local del PC y reproducirlo
